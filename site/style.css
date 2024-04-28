@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Lexend;
+    src: url(Lexend.ttf);
+}
+
+@font-face {
+    font-family: Russo;
+    src: url(Russo.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #0c0c0c;
+}
+
+* {
+    font-family: Lexend;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.landing-image {
+    height: 100vh;
+    display: block;
+    position: absolute;
+}
+
+.landing-image-2 {
+    height: 50vh;
+    display: block;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.landing-header {
+    font-family: Russo;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landing-main {
+    font-size: 180px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+.landing-sub {
+    margin-top: -20px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+}
